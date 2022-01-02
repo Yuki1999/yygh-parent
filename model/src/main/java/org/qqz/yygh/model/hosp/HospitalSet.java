@@ -1,5 +1,7 @@
 package org.qqz.yygh.model.hosp;
 
+import com.baomidou.mybatisplus.annotation.TableId;
+import com.fasterxml.jackson.annotation.JsonFormat;
 import org.qqz.yygh.model.base.BaseEntity;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
@@ -21,6 +23,11 @@ import org.qqz.yygh.model.base.BaseEntity;
 public class HospitalSet extends BaseEntity {
 	
 	private static final long serialVersionUID = 1L;
+
+	@JsonFormat(shape=JsonFormat.Shape.STRING)
+	@ApiModelProperty(value="主键")
+	@TableId
+	private Long id;
 
 	@ApiModelProperty(value = "医院名称")
 	@TableField("hosname")

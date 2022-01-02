@@ -26,6 +26,7 @@ public class Dict {
     private static final long serialVersionUID = 1L;
 
     @ApiModelProperty(value = "id")
+    @JsonFormat(shape=JsonFormat.Shape.STRING)
     private Long id;
 
     @ApiModelProperty(value = "创建时间")
@@ -48,6 +49,7 @@ public class Dict {
 
     @ApiModelProperty(value = "上级id")
     @TableField("parent_id")
+    @JsonFormat(shape=JsonFormat.Shape.STRING)
     private Long parentId;
 
     @ApiModelProperty(value = "名称")

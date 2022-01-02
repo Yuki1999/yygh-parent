@@ -6,7 +6,7 @@
         <option name="generateConfig">
           <GenerateConfig>
             <option name="annotationType" value="MYBATIS_PLUS3" />
-            <option name="basePackage" value="org.qqz.yygh.hosp" />
+            <option name="basePackage" value="org.qqz.yygh.cmn" />
             <option name="basePath" value="src/main/java" />
             <option name="classNameStrategy" value="camel" />
             <option name="encoding" value="UTF-8" />
@@ -16,7 +16,7 @@
             <option name="ignoreTablePrefix" value="" />
             <option name="ignoreTableSuffix" value="" />
             <option name="moduleName" value="service-hosp" />
-            <option name="modulePath" value="$PROJECT_DIR$/service/service-hosp" />
+            <option name="modulePath" value="$PROJECT_DIR$/service/service-cmn" />
             <option name="moduleUIInfoList">
               <list>
                 <ModuleInfoGo>
@@ -25,7 +25,7 @@
                   <option name="encoding" value="${domain.encoding}" />
                   <option name="fileName" value="${domain.fileName}Mapper" />
                   <option name="fileNameWithSuffix" value="${domain.fileName}Mapper.java" />
-                  <option name="modulePath" value="$PROJECT_DIR$/service/service-hosp" />
+                  <option name="modulePath" value="$PROJECT_DIR$/service/service-cmn" />
                   <option name="packageName" value="${domain.basePackage}.mapper" />
                 </ModuleInfoGo>
                 <ModuleInfoGo>
@@ -34,7 +34,7 @@
                   <option name="encoding" value="${domain.encoding}" />
                   <option name="fileName" value="${domain.fileName}Mapper" />
                   <option name="fileNameWithSuffix" value="${domain.fileName}Mapper.xml" />
-                  <option name="modulePath" value="$PROJECT_DIR$/service/service-hosp" />
+                  <option name="modulePath" value="$PROJECT_DIR$/service/service-cmn" />
                   <option name="packageName" value="mapper" />
                 </ModuleInfoGo>
                 <ModuleInfoGo>
@@ -43,7 +43,7 @@
                   <option name="encoding" value="${domain.encoding}" />
                   <option name="fileName" value="${domain.fileName}ServiceImpl" />
                   <option name="fileNameWithSuffix" value="${domain.fileName}ServiceImpl.java" />
-                  <option name="modulePath" value="$PROJECT_DIR$/service/service-hosp" />
+                  <option name="modulePath" value="$PROJECT_DIR$/service/service-cmn" />
                   <option name="packageName" value="${domain.basePackage}.service.impl" />
                 </ModuleInfoGo>
                 <ModuleInfoGo>
@@ -52,7 +52,7 @@
                   <option name="encoding" value="${domain.encoding}" />
                   <option name="fileName" value="${domain.fileName}Service" />
                   <option name="fileNameWithSuffix" value="${domain.fileName}Service.java" />
-                  <option name="modulePath" value="$PROJECT_DIR$/service/service-hosp" />
+                  <option name="modulePath" value="$PROJECT_DIR$/service/service-cmn" />
                   <option name="packageName" value="${domain.basePackage}.service" />
                 </ModuleInfoGo>
               </list>
@@ -63,8 +63,8 @@
             <option name="tableUIInfoList">
               <list>
                 <TableUIInfo>
-                  <option name="className" value="HospitalSet" />
-                  <option name="tableName" value="hospital_set" />
+                  <option name="className" value="Dict" />
+                  <option name="tableName" value="dict" />
                 </TableUIInfo>
               </list>
             </option>

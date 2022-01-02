@@ -8,5 +8,12 @@
       <jdbc-url>jdbc:mysql://localhost:3306/yygh_hosp?useSSH=false&amp;serverTimezone=Asia/Shanghai</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="yygh_cmn@localhost" uuid="adc95faa-9e4e-4154-8586-63c6f0cb985a">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/yygh_cmn?useSSH=false&amp;serverTimezone=Asia/Shanghai</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>
